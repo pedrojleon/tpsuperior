@@ -54,7 +54,7 @@ namespace OperadorComplejos
         /// <returns>número complejo binómico en formato polar.</returns>   
         public string ObtenerPolar()
         {
-            return string.Format(FORMATO_POLAR, _modulo, _angulo / Math.PI);
+            return string.Format(FORMATO_POLAR, Math.Round(_modulo,3), Math.Round((_angulo / Math.PI),3));
         }
 
         /// <summary>
@@ -63,7 +63,7 @@ namespace OperadorComplejos
         /// <returns>número complejo binómico en formato trigonométrico.</returns>   
         public string ObtenerTrigonometrica()
         {
-            return string.Format(FORMATO_TRIGONOMETRICO, _modulo, _angulo / Math.PI);
+            return string.Format(FORMATO_TRIGONOMETRICO, Math.Round(_modulo, 3), _angulo / Math.PI);
         }
 
         /// <summary>

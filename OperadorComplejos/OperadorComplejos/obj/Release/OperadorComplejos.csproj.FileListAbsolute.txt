@@ -14,3 +14,8 @@ C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\o
 C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Release\OperadorComplejos.pdb
 C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Release\OperadorComplejos.VentanaPrincipal.resources
 C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Release\OperadorComplejos.VentanaSuma.resources
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Release\OperadorComplejos.VentanaResta.resources
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Release\OperadorComplejos.VentanaProducto.resources
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Release\OperadorComplejos.VentanaCociente.resources
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Release\OperadorComplejos.VentanaPotencia.resources
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Release\OperadorComplejos.VentanaRadicacion.resources

@@ -16,3 +16,8 @@ C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\o
 C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.csproj.GenerateResource.Cache
 C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.VentanaPrincipal.resources
 C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.VentanaSuma.resources
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.VentanaResta.resources
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.VentanaProducto.resources
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.VentanaCociente.resources
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.VentanaPotencia.resources
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.VentanaRadicacion.resources

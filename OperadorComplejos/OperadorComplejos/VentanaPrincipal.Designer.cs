@@ -31,6 +31,11 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.operacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sumaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.restaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mulToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cocienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.potenciaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.radicaciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,7 +52,12 @@
             // operacionesToolStripMenuItem
             // 
             this.operacionesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.sumaToolStripMenuItem});
+            this.sumaToolStripMenuItem,
+            this.restaToolStripMenuItem,
+            this.mulToolStripMenuItem,
+            this.cocienteToolStripMenuItem,
+            this.potenciaToolStripMenuItem,
+            this.radicaciónToolStripMenuItem});
             this.operacionesToolStripMenuItem.Name = "operacionesToolStripMenuItem";
             this.operacionesToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
             this.operacionesToolStripMenuItem.Text = "Operaciones";
@@ -55,9 +65,44 @@
             // sumaToolStripMenuItem
             // 
             this.sumaToolStripMenuItem.Name = "sumaToolStripMenuItem";
-            this.sumaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.sumaToolStripMenuItem.Size = new System.Drawing.Size(104, 22);
             this.sumaToolStripMenuItem.Text = "Suma";
             this.sumaToolStripMenuItem.Click += new System.EventHandler(this.sumaToolStripMenuItem_Click);
+            // 
+            // restaToolStripMenuItem
+            // 
+            this.restaToolStripMenuItem.Name = "restaToolStripMenuItem";
+            this.restaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.restaToolStripMenuItem.Text = "Resta";
+            this.restaToolStripMenuItem.Click += new System.EventHandler(this.restaToolStripMenuItem_Click);
+            // 
+            // mulToolStripMenuItem
+            // 
+            this.mulToolStripMenuItem.Name = "mulToolStripMenuItem";
+            this.mulToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.mulToolStripMenuItem.Text = "Multiplicación";
+            this.mulToolStripMenuItem.Click += new System.EventHandler(this.mulToolStripMenuItem_Click);
+            // 
+            // cocienteToolStripMenuItem
+            // 
+            this.cocienteToolStripMenuItem.Name = "cocienteToolStripMenuItem";
+            this.cocienteToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cocienteToolStripMenuItem.Text = "Cociente";
+            this.cocienteToolStripMenuItem.Click += new System.EventHandler(this.cocienteToolStripMenuItem_Click);
+            // 
+            // potenciaToolStripMenuItem
+            // 
+            this.potenciaToolStripMenuItem.Name = "potenciaToolStripMenuItem";
+            this.potenciaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.potenciaToolStripMenuItem.Text = "Potencia";
+            this.potenciaToolStripMenuItem.Click += new System.EventHandler(this.potenciaToolStripMenuItem_Click);
+            // 
+            // radicaciónToolStripMenuItem
+            // 
+            this.radicaciónToolStripMenuItem.Name = "radicaciónToolStripMenuItem";
+            this.radicaciónToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.radicaciónToolStripMenuItem.Text = "Radicación";
+            this.radicaciónToolStripMenuItem.Click += new System.EventHandler(this.radicaciónToolStripMenuItem_Click);
             // 
             // VentanaPrincipal
             // 
@@ -67,7 +112,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "VentanaPrincipal";
-            this.Text = "Operador de Numeros Complejos";
+            this.Text = "WesselSoft";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -80,5 +125,10 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem operacionesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sumaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem restaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mulToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cocienteToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem potenciaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem radicaciónToolStripMenuItem;
     }
 }

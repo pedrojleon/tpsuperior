@@ -52,7 +52,7 @@ namespace OperadorComplejos
             double parteReal = a.ParteReal + b.ParteReal;
             double parteImaginaria = a.ParteImaginaria + b.ParteImaginaria;
 
-            return new NumeroComplejoBinomico(parteReal, parteImaginaria);
+            return new NumeroComplejoBinomico(Math.Round(parteReal,3), Math.Round(parteImaginaria,3));
         }
 
         /// <summary>
@@ -82,7 +82,7 @@ namespace OperadorComplejos
             double modulo = RedondeoDecimal(a.Modulo / b.Modulo);
             double angulo = a.Angulo - b.Angulo;
 
-            return new NumeroComplejoPolar(modulo, angulo);
+            return new NumeroComplejoPolar(Math.Round(modulo,3), Math.Round(angulo,3));
         }
 
 
@@ -94,12 +94,17 @@ namespace OperadorComplejos
         /// <returns></returns>
         public static NumeroComplejoBinomico Producto(NumeroComplejoBinomico a, NumeroComplejoBinomico b)
         {
-            NumeroComplejoPolar aPolar = BinomicoAPolar(a);
-            NumeroComplejoPolar bPolar = BinomicoAPolar(b);
+            double parterealA = a.ParteReal;
+            double parteImgA = a.ParteImaginaria;
+            double parterealB = b.ParteReal;
+            double parteImgB = b.ParteImaginaria;
 
-            NumeroComplejoPolar resltado = Producto(aPolar, bPolar);
+            double parteRealRtado = (parterealA * parterealB) - (parteImgA * parteImgB);
+            double parteImgRtado = (parterealA * parteImgB) + (parteImgA * parterealB);
 
-            return PolarABinomico(resltado);
+            NumeroComplejoBinomico resltado = new NumeroComplejoBinomico(Math.Round(parteRealRtado,3), Math.Round(parteImgRtado,3));
+
+            return resltado;
         }
 
 

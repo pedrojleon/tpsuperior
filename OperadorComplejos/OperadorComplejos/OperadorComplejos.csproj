@@ -64,8 +64,23 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="VentanaCociente.resx">
+      <DependentUpon>VentanaCociente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaPotencia.resx">
+      <DependentUpon>VentanaPotencia.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="VentanaPrincipal.resx">
       <DependentUpon>VentanaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaProducto.resx">
+      <DependentUpon>VentanaProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaRadicacion.resx">
+      <DependentUpon>VentanaRadicacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaResta.resx">
+      <DependentUpon>VentanaResta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VentanaSuma.resx">
       <DependentUpon>VentanaSuma.cs</DependentUpon>
@@ -83,11 +98,41 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="VentanaCociente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaCociente.Designer.cs">
+      <DependentUpon>VentanaCociente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaPotencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaPotencia.Designer.cs">
+      <DependentUpon>VentanaPotencia.cs</DependentUpon>
+    </Compile>
     <Compile Include="VentanaPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="VentanaPrincipal.Designer.cs">
       <DependentUpon>VentanaPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaProducto.Designer.cs">
+      <DependentUpon>VentanaProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaRadicacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaRadicacion.Designer.cs">
+      <DependentUpon>VentanaRadicacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaResta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaResta.Designer.cs">
+      <DependentUpon>VentanaResta.cs</DependentUpon>
     </Compile>
     <Compile Include="VentanaSuma.cs">
       <SubType>Form</SubType>

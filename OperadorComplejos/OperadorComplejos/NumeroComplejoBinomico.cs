@@ -31,6 +31,16 @@ namespace OperadorComplejos
             get { return _parteImaginaria; }
         }
 
+        public void setParteReal(double partereal)
+        {
+            _parteReal = partereal;
+        }
+
+        public void setParteImaginaria(double parteimaginaria)
+        {
+            _parteImaginaria = parteimaginaria;
+        }
+
         /// <summary>
         /// Método utilizado para construir un número complejo binómico.
         /// </summary>
@@ -58,7 +68,7 @@ namespace OperadorComplejos
         public string ObtenerBinomica()
         {
             string foramtoFinal = _parteImaginaria >= 0 ? FORMATO_BINOMICO : FORMATO_BINOMICO.Replace("+", "");
-            return string.Format(foramtoFinal, _parteReal, _parteImaginaria);
+            return string.Format(foramtoFinal, Math.Round(_parteReal,3), Math.Round(_parteImaginaria, 3));
         }
 
     }
