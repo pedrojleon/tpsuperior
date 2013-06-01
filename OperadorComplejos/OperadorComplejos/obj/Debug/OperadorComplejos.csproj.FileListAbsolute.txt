@@ -1,0 +1,16 @@
+C:\Users\Pedro\AppData\Local\Temporary Projects\OperadorComplejos\bin\Debug\OperadorComplejos.exe
+C:\Users\Pedro\AppData\Local\Temporary Projects\OperadorComplejos\bin\Debug\OperadorComplejos.pdb
+C:\Users\Pedro\AppData\Local\Temporary Projects\OperadorComplejos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pedro\AppData\Local\Temporary Projects\OperadorComplejos\obj\Debug\OperadorComplejos.Properties.Resources.resources
+C:\Users\Pedro\AppData\Local\Temporary Projects\OperadorComplejos\obj\Debug\OperadorComplejos.csproj.GenerateResource.Cache
+C:\Users\Pedro\AppData\Local\Temporary Projects\OperadorComplejos\obj\Debug\OperadorComplejos.exe
+C:\Users\Pedro\AppData\Local\Temporary Projects\OperadorComplejos\obj\Debug\OperadorComplejos.pdb
+C:\Users\Pedro\UTN\Matemática Superior\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.exe
+C:\Users\Pedro\UTN\Matemática Superior\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.pdb
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.exe
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.pdb
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\bin\Debug\OperadorComplejos.exe
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\bin\Debug\OperadorComplejos.pdb
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.Properties.Resources.resources
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.csproj.GenerateResource.Cache

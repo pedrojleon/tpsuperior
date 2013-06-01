@@ -1,0 +1,14 @@
+C:\Users\Pedro\AppData\Local\Temporary Projects\OperadorComplejos\bin\Release\OperadorComplejos.exe
+C:\Users\Pedro\AppData\Local\Temporary Projects\OperadorComplejos\bin\Release\OperadorComplejos.pdb
+C:\Users\Pedro\AppData\Local\Temporary Projects\OperadorComplejos\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Pedro\AppData\Local\Temporary Projects\OperadorComplejos\obj\Release\OperadorComplejos.Properties.Resources.resources
+C:\Users\Pedro\AppData\Local\Temporary Projects\OperadorComplejos\obj\Release\OperadorComplejos.csproj.GenerateResource.Cache
+C:\Users\Pedro\AppData\Local\Temporary Projects\OperadorComplejos\obj\Release\OperadorComplejos.exe
+C:\Users\Pedro\AppData\Local\Temporary Projects\OperadorComplejos\obj\Release\OperadorComplejos.pdb
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\bin\Release\OperadorComplejos.exe
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\bin\Release\OperadorComplejos.pdb
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Release\OperadorComplejos.Properties.Resources.resources
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Release\OperadorComplejos.csproj.GenerateResource.Cache
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Release\OperadorComplejos.exe
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Release\OperadorComplejos.pdb
