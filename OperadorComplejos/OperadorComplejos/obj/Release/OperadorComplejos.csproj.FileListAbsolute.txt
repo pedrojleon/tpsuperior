@@ -12,3 +12,5 @@ C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\o
 C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Release\OperadorComplejos.csproj.GenerateResource.Cache
 C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Release\OperadorComplejos.exe
 C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Release\OperadorComplejos.pdb
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Release\OperadorComplejos.VentanaPrincipal.resources
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Release\OperadorComplejos.VentanaSuma.resources

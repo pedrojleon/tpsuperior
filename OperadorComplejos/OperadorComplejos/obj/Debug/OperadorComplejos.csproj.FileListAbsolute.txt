@@ -14,3 +14,5 @@ C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\b
 C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.Properties.Resources.resources
 C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.csproj.GenerateResource.Cache
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.VentanaPrincipal.resources
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.VentanaSuma.resources

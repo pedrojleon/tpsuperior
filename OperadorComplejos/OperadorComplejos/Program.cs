@@ -13,11 +13,16 @@ namespace OperadorComplejos
         [STAThread]
         static void Main()
         {
-            NumeroComplejoBinomico ncb = new NumeroComplejoBinomico(1, 2);
+
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new Abm_Micro.ABM_Micro());
+            Application.Run(new VentanaPrincipal());
+
+            /*NumeroComplejoBinomico ncb = new NumeroComplejoBinomico(1, 2);
             NumeroComplejoBinomico ncb2 = new NumeroComplejoBinomico(0, -8);
             NumeroComplejoPolar ncp1 = new NumeroComplejoPolar(2.236068, 1.107148);
             NumeroComplejoPolar ncp2 = new NumeroComplejoPolar(8, -1.57);
-            //abcpedroleonabcpedroleonabcpedroleonabcpedroleonabcpedroleon
             NumeroComplejoBinomico sumadobinomico = OperadorDeComplejos.Sumar(ncb, ncb2);
             NumeroComplejoPolar sumadopolar = OperadorDeComplejos.Sumar(ncp1, ncp2);
 
@@ -28,7 +33,7 @@ namespace OperadorComplejos
             //NumeroComplejoBinomico potenciado = OperadorDeComplejos.Potencia(ncb2, 5);
             //string str_potenciado = potenciado.ObtenerBinomica();
             List<NumeroComplejoPolar> listaRaices = OperadorDeComplejos.Raiz(ncp2, 3);
-            //string str_potenciado2 = OperadorDeComplejos.PolarABinomico(potenciado2).ObtenerBinomica();
+            //string str_potenciado2 = OperadorDeComplejos.PolarABinomico(potenciado2).ObtenerBinomica();*/
         }
     }
 }
