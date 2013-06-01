@@ -88,6 +88,8 @@ namespace OperadorComplejos
             string[] partes_del_numero = parte_del_medio.Split(delimitador);
             string primera_parte = partes_del_numero[0];
             string segunda_parte = partes_del_numero[1];
+            primera_parte = primera_parte.Replace('.',',');
+            segunda_parte = segunda_parte.Replace('.', ',');
 
             try
             {
@@ -109,6 +111,8 @@ namespace OperadorComplejos
             string[] partes_del_numero = parte_del_medio.Split(',');
             string primera_parte = partes_del_numero[0];
             string segunda_parte = partes_del_numero[1];
+            primera_parte = primera_parte.Replace('.', ',');
+            segunda_parte = segunda_parte.Replace('.', ',');
 
             Double d_1 = Convert.ToDouble(primera_parte);
             Double d_2 = Convert.ToDouble(segunda_parte);
@@ -123,6 +127,8 @@ namespace OperadorComplejos
             string[] partes_del_numero = parte_del_medio.Split(';');
             string primera_parte = partes_del_numero[0];
             string segunda_parte = partes_del_numero[1];
+            primera_parte = primera_parte.Replace('.', ',');
+            segunda_parte = segunda_parte.Replace('.', ',');
 
             Double d_1 = Convert.ToDouble(primera_parte);
             Double d_2 = Convert.ToDouble(segunda_parte);
