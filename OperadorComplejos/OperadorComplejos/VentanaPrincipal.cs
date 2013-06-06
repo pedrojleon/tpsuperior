@@ -57,5 +57,12 @@ namespace OperadorComplejos
             v_raiz.Tag = this; //guardo en Tag una referencia a mi formulario
             v_raiz.ShowDialog();
         }
+
+        private void fasoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            VentanaFasores v_fasores = new VentanaFasores();
+            v_fasores.Tag = this; //guardo en Tag una referencia a mi formulario
+            v_fasores.ShowDialog();
+        }
     }
 }

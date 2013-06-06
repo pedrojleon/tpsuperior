@@ -63,7 +63,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.label5.Location = new System.Drawing.Point(14, 119);
+            this.label5.Location = new System.Drawing.Point(12, 128);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(504, 13);
             this.label5.TabIndex = 51;
@@ -142,7 +142,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(538, 149);
+            this.ClientSize = new System.Drawing.Size(566, 195);
             this.Controls.Add(this.label_res_binom);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label5);

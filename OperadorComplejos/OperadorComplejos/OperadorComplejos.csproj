@@ -67,6 +67,9 @@
     <EmbeddedResource Include="VentanaCociente.resx">
       <DependentUpon>VentanaCociente.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="VentanaFasores.resx">
+      <DependentUpon>VentanaFasores.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="VentanaPotencia.resx">
       <DependentUpon>VentanaPotencia.cs</DependentUpon>
     </EmbeddedResource>
@@ -103,6 +106,12 @@
     </Compile>
     <Compile Include="VentanaCociente.Designer.cs">
       <DependentUpon>VentanaCociente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaFasores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaFasores.Designer.cs">
+      <DependentUpon>VentanaFasores.cs</DependentUpon>
     </Compile>
     <Compile Include="VentanaPotencia.cs">
       <SubType>Form</SubType>

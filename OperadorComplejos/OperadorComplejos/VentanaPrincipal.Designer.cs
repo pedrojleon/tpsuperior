@@ -36,6 +36,7 @@
             this.cocienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.potenciaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.radicaciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fasoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,7 +58,8 @@
             this.mulToolStripMenuItem,
             this.cocienteToolStripMenuItem,
             this.potenciaToolStripMenuItem,
-            this.radicaciónToolStripMenuItem});
+            this.radicaciónToolStripMenuItem,
+            this.fasoresToolStripMenuItem});
             this.operacionesToolStripMenuItem.Name = "operacionesToolStripMenuItem";
             this.operacionesToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
             this.operacionesToolStripMenuItem.Text = "Operaciones";
@@ -65,7 +67,7 @@
             // sumaToolStripMenuItem
             // 
             this.sumaToolStripMenuItem.Name = "sumaToolStripMenuItem";
-            this.sumaToolStripMenuItem.Size = new System.Drawing.Size(104, 22);
+            this.sumaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.sumaToolStripMenuItem.Text = "Suma";
             this.sumaToolStripMenuItem.Click += new System.EventHandler(this.sumaToolStripMenuItem_Click);
             // 
@@ -104,6 +106,13 @@
             this.radicaciónToolStripMenuItem.Text = "Radicación";
             this.radicaciónToolStripMenuItem.Click += new System.EventHandler(this.radicaciónToolStripMenuItem_Click);
             // 
+            // fasoresToolStripMenuItem
+            // 
+            this.fasoresToolStripMenuItem.Name = "fasoresToolStripMenuItem";
+            this.fasoresToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.fasoresToolStripMenuItem.Text = "Fasores";
+            this.fasoresToolStripMenuItem.Click += new System.EventHandler(this.fasoresToolStripMenuItem_Click);
+            // 
             // VentanaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -130,5 +139,6 @@
         private System.Windows.Forms.ToolStripMenuItem cocienteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem potenciaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem radicaciónToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fasoresToolStripMenuItem;
     }
 }

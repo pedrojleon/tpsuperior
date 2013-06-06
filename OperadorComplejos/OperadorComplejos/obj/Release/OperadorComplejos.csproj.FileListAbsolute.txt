@@ -19,3 +19,4 @@ C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\o
 C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Release\OperadorComplejos.VentanaCociente.resources
 C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Release\OperadorComplejos.VentanaPotencia.resources
 C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Release\OperadorComplejos.VentanaRadicacion.resources
+C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Release\OperadorComplejos.VentanaFasores.resources
