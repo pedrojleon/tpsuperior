@@ -24,3 +24,16 @@ C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\o
 C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.VentanaFasores.resources
 D:\Documentos\UTN\En tramite\MS\TP\Repo2\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.exe
 D:\Documentos\UTN\En tramite\MS\TP\Repo2\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.pdb
+D:\Documentos\UTN\En tramite\MS\TP\Repo2\OperadorComplejos\OperadorComplejos\bin\Debug\OperadorComplejos.exe
+D:\Documentos\UTN\En tramite\MS\TP\Repo2\OperadorComplejos\OperadorComplejos\bin\Debug\OperadorComplejos.pdb
+D:\Documentos\UTN\En tramite\MS\TP\Repo2\OperadorComplejos\OperadorComplejos\obj\Debug\ResolveAssemblyReference.cache
+D:\Documentos\UTN\En tramite\MS\TP\Repo2\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.Properties.Resources.resources
+D:\Documentos\UTN\En tramite\MS\TP\Repo2\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.VentanaCociente.resources
+D:\Documentos\UTN\En tramite\MS\TP\Repo2\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.VentanaFasores.resources
+D:\Documentos\UTN\En tramite\MS\TP\Repo2\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.VentanaPotencia.resources
+D:\Documentos\UTN\En tramite\MS\TP\Repo2\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.VentanaPrincipal.resources
+D:\Documentos\UTN\En tramite\MS\TP\Repo2\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.VentanaProducto.resources
+D:\Documentos\UTN\En tramite\MS\TP\Repo2\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.VentanaRadicacion.resources
+D:\Documentos\UTN\En tramite\MS\TP\Repo2\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.VentanaResta.resources
+D:\Documentos\UTN\En tramite\MS\TP\Repo2\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.VentanaSuma.resources
+D:\Documentos\UTN\En tramite\MS\TP\Repo2\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.csproj.GenerateResource.Cache

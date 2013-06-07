@@ -46,25 +46,67 @@ namespace OperadorComplejos
 
         private void numero1_TextChanged(object sender, EventArgs e)
         {
-            int amplitud1;
-            amplitud1 = Convert.ToInt32(numero1.Text);   //está bien?
+            double amplitud1;
+            amplitud1 = Convert.ToDouble(numero1.Text);
+
+            /*ATRAPAR EXCEPCION!! SI NO PUEDE CASTEAR VA A ARROJAR ERROR, ATRAPARLA Y
+             * REELANZARLA CON EL ERROR QUE DIGA QUE NO SE PUEDE INGRESAR LETRAS
+             * try
+            {
+            }
+            carch
+            {
+            }*/
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            /* - validar que las frecuencias de ambas funciones son iguales
+             * - ambas frecuencias son iguales      SI, validar si ambas son senos o cosenos
+             *                                      NO, informar que ambas frecuencias deben ser iguales
+             * 
+             * - ambas son senos o cosenos          SI, armar fasor
+             *                                      NO, transformar a todo coseno o todo seno
+             *                                      
+             * - armar fasor es obtener módulo y argumento (amplitud y fase)
+             * - pasar a forma canónica 
+             * - sumar o restar (según la variable OPERACION)
+             * - pasar a forma exponencial 
+             * - imprimir por pantalla
+             */
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            int frecuencia1;
-            frecuencia1 = Convert.ToInt32(textBox1.Text);
+            double frecuencia1;
+            frecuencia1 = Convert.ToDouble(textBox1.Text);
+
+            /*ATRAPAR EXCEPCION!! SI NO PUEDE CASTEAR VA A ARROJAR ERROR, ATRAPARLA Y
+             * REELANZARLA CON EL ERROR QUE DIGA QUE NO SE PUEDE INGRESAR LETRAS
+             * try
+            {
+            }
+            carch
+            {
+            }*/
+
         }
 
         private void numero2_TextChanged(object sender, EventArgs e)
         {
-            int fase1;
-            fase1 = Convert.ToInt32(numero2.Text); //está bien?
+            double fase1;
+            fase1 = Convert.ToDouble(numero2.Text);
+
+            /*ATRAPAR EXCEPCION!! SI NO PUEDE CASTEAR VA A ARROJAR ERROR, ATRAPARLA Y
+             * REELANZARLA CON EL ERROR QUE DIGA QUE NO SE PUEDE INGRESAR LETRAS
+             * try
+            {
+            }
+            carch
+            {
+            }*/
+
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
@@ -75,20 +117,50 @@ namespace OperadorComplejos
 
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
-            int amplitud2;
-            amplitud2 = Convert.ToInt32(textBox4.Text);
+            double amplitud2;
+            amplitud2 = Convert.ToDouble(textBox4.Text);
+
+            /*ATRAPAR EXCEPCION!! SI NO PUEDE CASTEAR VA A ARROJAR ERROR, ATRAPARLA Y
+             * REELANZARLA CON EL ERROR QUE DIGA QUE NO SE PUEDE INGRESAR LETRAS
+             * try
+            {
+            }
+            carch
+            {
+            }*/
+
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-            int fase2;
-            fase2 = Convert.ToInt32(textBox3.Text);
+            double fase2;
+            fase2 = Convert.ToDouble(textBox3.Text);
+
+            /*ATRAPAR EXCEPCION!! SI NO PUEDE CASTEAR VA A ARROJAR ERROR, ATRAPARLA Y
+             * REELANZARLA CON EL ERROR QUE DIGA QUE NO SE PUEDE INGRESAR LETRAS
+             * try
+            {
+            }
+            carch
+            {
+            }*/
+
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            int frecuencia2;
-            frecuencia2 = Convert.ToInt32(textBox2.Text);
+            double frecuencia2;
+            frecuencia2 = Convert.ToDouble(textBox2.Text);
+
+            /*ATRAPAR EXCEPCION!! SI NO PUEDE CASTEAR VA A ARROJAR ERROR, ATRAPARLA Y
+             * REELANZARLA CON EL ERROR QUE DIGA QUE NO SE PUEDE INGRESAR LETRAS
+             * try
+            {
+            }
+            carch
+            {
+            }*/
+
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
