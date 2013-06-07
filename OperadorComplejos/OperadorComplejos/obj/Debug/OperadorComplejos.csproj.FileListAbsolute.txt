@@ -22,3 +22,5 @@ C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\o
 C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.VentanaPotencia.resources
 C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.VentanaRadicacion.resources
 C:\Users\Pedro\UTN\Matemática Superior\TP\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.VentanaFasores.resources
+D:\Documentos\UTN\En tramite\MS\TP\Repo2\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.exe
+D:\Documentos\UTN\En tramite\MS\TP\Repo2\OperadorComplejos\OperadorComplejos\obj\Debug\OperadorComplejos.pdb
