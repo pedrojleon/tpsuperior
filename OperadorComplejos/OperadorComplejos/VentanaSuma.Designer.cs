@@ -145,6 +145,7 @@
             this.Controls.Add(this.numero1);
             this.Name = "VentanaSuma";
             this.Text = "Suma";
+            this.Load += new System.EventHandler(this.VentanaSuma_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

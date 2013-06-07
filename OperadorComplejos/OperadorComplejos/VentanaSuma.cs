@@ -137,6 +137,11 @@ namespace OperadorComplejos
             return rtado;
         }
 
+        private void VentanaSuma_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
 

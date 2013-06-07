@@ -63,6 +63,12 @@ namespace OperadorComplejos
             VentanaFasores v_fasores = new VentanaFasores();
             v_fasores.Tag = this; //guardo en Tag una referencia a mi formulario
             v_fasores.ShowDialog();
+
+        }
+
+        private void VentanaPrincipal_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
