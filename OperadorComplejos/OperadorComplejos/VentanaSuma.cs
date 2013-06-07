@@ -142,6 +142,11 @@ namespace OperadorComplejos
 
         }
 
+        private void numero1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
 

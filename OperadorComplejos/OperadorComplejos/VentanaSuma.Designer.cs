@@ -46,6 +46,7 @@
             this.numero1.Name = "numero1";
             this.numero1.Size = new System.Drawing.Size(75, 20);
             this.numero1.TabIndex = 0;
+            this.numero1.TextChanged += new System.EventHandler(this.numero1_TextChanged);
             // 
             // button1
             // 
