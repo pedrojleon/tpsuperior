@@ -136,10 +136,13 @@ namespace OperadorComplejos
             }
 
             NumeroComplejoBinomico productobinomico = OperadorDeComplejos.Producto(binomico1, binomico2);
-            //NumeroComplejoPolar sumadopolar = OperadorDeComplejos.Sumar(polar1, polar2);
+            NumeroComplejoPolar productopolar = OperadorDeComplejos.BinomicoAPolar(productobinomico);
 
+            string str_productopolar = productopolar.ObtenerPolar();
+            label_resul.Text = str_productopolar;
             string str_productobinomico = productobinomico.ObtenerBinomica();
-            label_resul.Text = str_productobinomico;
+            label7.Text = str_productobinomico;
         }
+
     }
 }

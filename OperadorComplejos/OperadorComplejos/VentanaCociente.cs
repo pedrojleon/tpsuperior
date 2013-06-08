@@ -138,8 +138,10 @@ namespace OperadorComplejos
             NumeroComplejoPolar cocientepolar = OperadorDeComplejos.Cociente(polar1, polar2);
             NumeroComplejoBinomico cocientebinomico = OperadorDeComplejos.PolarABinomico(cocientepolar);
 
-            string str_productobinomico = cocientepolar.ObtenerPolar();
-            label_resul.Text = str_productobinomico;
+            string str_productopolar = cocientepolar.ObtenerPolar();
+            string str_productobinomico = cocientebinomico.ObtenerBinomica();
+            label_resul.Text = str_productopolar;
+            label7.Text = str_productobinomico;
         }
     }
 }

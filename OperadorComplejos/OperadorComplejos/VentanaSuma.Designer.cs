@@ -38,6 +38,8 @@
             this.label_resul = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // numero1
@@ -103,7 +105,7 @@
             // label_resul
             // 
             this.label_resul.AutoSize = true;
-            this.label_resul.Location = new System.Drawing.Point(375, 60);
+            this.label_resul.Location = new System.Drawing.Point(414, 42);
             this.label_resul.Name = "label_resul";
             this.label_resul.Size = new System.Drawing.Size(0, 13);
             this.label_resul.TabIndex = 8;
@@ -112,11 +114,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.label4.Location = new System.Drawing.Point(319, 60);
+            this.label4.Location = new System.Drawing.Point(316, 42);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(39, 13);
+            this.label4.Size = new System.Drawing.Size(66, 13);
             this.label4.TabIndex = 9;
-            this.label4.Text = "Rtado:";
+            this.label4.Text = "Rtado Polar:";
             // 
             // label5
             // 
@@ -129,11 +131,31 @@
             this.label5.Text = "El formato de los numeros ingresados debe ser (a,b) o [a;b], según sea forma binó" +
                 "mica o polar respectivamente";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.label6.Location = new System.Drawing.Point(316, 78);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(85, 13);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Rtado Binómico:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(414, 78);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(0, 13);
+            this.label7.TabIndex = 11;
+            // 
             // VentanaSuma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(550, 167);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label_resul);
@@ -164,5 +186,7 @@
         private System.Windows.Forms.Label label_resul;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
     }
 }

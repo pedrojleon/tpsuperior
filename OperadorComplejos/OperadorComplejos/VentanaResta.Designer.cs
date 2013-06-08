@@ -38,6 +38,8 @@
             this.numero1 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label_resul = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label5
@@ -114,25 +116,45 @@
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.label4.Location = new System.Drawing.Point(303, 50);
+            this.label4.Location = new System.Drawing.Point(303, 32);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(39, 13);
+            this.label4.Size = new System.Drawing.Size(66, 13);
             this.label4.TabIndex = 21;
-            this.label4.Text = "Rtado:";
+            this.label4.Text = "Rtado Polar:";
             // 
             // label_resul
             // 
             this.label_resul.AutoSize = true;
-            this.label_resul.Location = new System.Drawing.Point(359, 50);
+            this.label_resul.Location = new System.Drawing.Point(404, 32);
             this.label_resul.Name = "label_resul";
             this.label_resul.Size = new System.Drawing.Size(0, 13);
             this.label_resul.TabIndex = 20;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.label6.Location = new System.Drawing.Point(303, 68);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(85, 13);
+            this.label6.TabIndex = 23;
+            this.label6.Text = "Rtado Binómico:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(404, 68);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(0, 13);
+            this.label7.TabIndex = 22;
             // 
             // VentanaResta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(552, 157);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label_resul);
             this.Controls.Add(this.label5);
@@ -145,6 +167,7 @@
             this.Controls.Add(this.numero1);
             this.Name = "VentanaResta";
             this.Text = "Resta";
+            this.Load += new System.EventHandler(this.VentanaResta_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -162,5 +185,7 @@
         private System.Windows.Forms.TextBox numero1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label_resul;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
     }
 }

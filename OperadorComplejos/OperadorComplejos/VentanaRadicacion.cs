@@ -166,5 +166,93 @@ namespace OperadorComplejos
             }
             return rtado;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string str_nro1 = textBox1.Text.Trim();
+            string raiz = textBox2.Text.Trim();
+            double raiz_double;
+            NumeroComplejoBinomico binomico1;
+            NumeroComplejoPolar polar1;
+
+            if (raiz.Trim().Equals("") || raiz.Trim().Equals("0"))
+            {
+                MessageBox.Show("Ingrese una raiz válida", null, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
+            else
+            {
+                try
+                {
+                    raiz_double = Convert.ToDouble(raiz.Replace('.', ','));
+                }
+                catch
+                {
+                    MessageBox.Show("Ingrese una raiz válida", null, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    return;
+                }
+            }
+            if (!numeroValido(str_nro1))
+            {
+                MessageBox.Show("El número ingresado no cumple con el formato establecido. \nFormatos: (a,b) o [a;b].", null, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
+
+            if (str_nro1.Substring(0, 1).Equals("("))
+            {
+                binomico1 = getBinomico(str_nro1);
+                polar1 = OperadorDeComplejos.BinomicoAPolar(binomico1);
+                NumeroComplejoBinomico aux = OperadorDeComplejos.PolarABinomico(polar1);
+
+            }
+            else
+            {
+                polar1 = getPolar(str_nro1);
+                binomico1 = OperadorDeComplejos.PolarABinomico(polar1);
+            }
+
+            List<NumeroComplejoPolar> listaRaicesPolares = OperadorDeComplejos.Raiz(polar1, raiz_double);
+            List<NumeroComplejoBinomico> listaRaicesBinomicas = OperadorDeComplejos.Raiz(binomico1, raiz_double);
+
+            List<NumeroComplejoPolar> listaRaicesPrimitivas = new List<NumeroComplejoPolar>();
+            for (int k = 0; k < listaRaicesPolares.Count; k++)
+            {
+                int raizint = Convert.ToInt16(raiz_double);
+                if (mcd(raizint, k) == 1)
+                    listaRaicesPrimitivas.Add(listaRaicesPolares[k]);
+            }
+
+            label9.Text = stringListaRaicesPolares(listaRaicesPrimitivas);
+
+        }
+
+        public int mcd(int a, int b) {
+
+            int mcd = 0;
+            int resto = 0;
+            int grande = (a >= b) ? a : b;
+            int chico = (a >= b) ? b : a;
+
+            if (chico == 0)
+                return grande;
+
+            Boolean fin = false;
+            while( !fin ){
+                mcd = grande / chico;
+                resto = grande % chico;
+
+                if (resto != 0)
+                {
+                    grande = chico;
+                    chico = resto;
+                }
+                else
+                    fin = true;
+
+            }
+
+            return chico;
+        
+        }
     }
 }

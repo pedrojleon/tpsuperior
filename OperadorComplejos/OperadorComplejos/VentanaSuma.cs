@@ -53,10 +53,12 @@ namespace OperadorComplejos
             }
 
             NumeroComplejoBinomico sumadobinomico = OperadorDeComplejos.Sumar(binomico1, binomico2);
-            NumeroComplejoPolar sumadopolar = OperadorDeComplejos.Sumar(polar1, polar2);
+            NumeroComplejoPolar sumadopolar = OperadorDeComplejos.BinomicoAPolar(sumadobinomico);
 
+            string str_sumadopolar = sumadopolar.ObtenerPolar();
+            label_resul.Text = str_sumadopolar;
             string str_sumadobinomico = sumadobinomico.ObtenerBinomica();
-            label_resul.Text = str_sumadobinomico;
+            label7.Text = str_sumadobinomico;
 
         }
 
