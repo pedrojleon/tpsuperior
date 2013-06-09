@@ -51,15 +51,26 @@ namespace OperadorComplejos
             
             int tipoOperacion;
             int tipoFuncion1, tipoFuncion2;
+            
+            Double amplitud1;
+            Double amplitud2;
+            Double fase1; 
+            Double fase2;
             Double frecuencia1;
             Double frecuencia2;
-
+            
+            NumeroComplejoBinomico fasor1B;
+            NumeroComplejoBinomico fasor2B;
+            NumeroComplejoBinomico resultadoOperacionB;
+            NumeroComplejoPolar resultadoOperacionP;
+         
+            // Valido que se ingresen solo números
             try
             {
-                Double amplitud1 = Convert.ToDouble(numero1.Text.Trim());
-                Double amplitud2 = Convert.ToDouble(textBox4.Text.Trim());
-                Double fase1 = Convert.ToDouble(numero2.Text.Trim());
-                Double fase2 = Convert.ToDouble(textBox3.Text.Trim());
+                amplitud1 = Convert.ToDouble(numero1.Text.Trim());
+                amplitud2 = Convert.ToDouble(textBox4.Text.Trim());
+                fase1 = Convert.ToDouble(numero2.Text.Trim());
+                fase2 = Convert.ToDouble(textBox3.Text.Trim());
                 frecuencia1 = Convert.ToDouble(textBox1.Text.Trim());
                 frecuencia2 = Convert.ToDouble(textBox2.Text.Trim());
                 
@@ -69,6 +80,7 @@ namespace OperadorComplejos
                 MessageBox.Show("Solo puede ingresar números.", null, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
 
+            // Valido que se indique si es SUMA o RESTA
             if (radioButton5.Checked)
             {
                 tipoOperacion = 1;           // SUMA es 1 y RESTA es 2
@@ -85,6 +97,7 @@ namespace OperadorComplejos
                 }
             }
 
+            // Valido que se indique si la primer función es COSENO o SENO 
             if (radioButton1.Checked)
             {
                 tipoFuncion1 = 1;            // COSENO es 1 y SENO es 2
@@ -101,6 +114,7 @@ namespace OperadorComplejos
                 }
             }
 
+            // Valido que se indique si la segunda función es COSENO o SENO 
             if (radioButton3.Checked)
             {
                 tipoFuncion2 = 1;            // COSENO es 1 y SENO es 2
@@ -117,12 +131,35 @@ namespace OperadorComplejos
                 }
             }
 
-            NumeroComplejoBinomico binomico1;
-            NumeroComplejoBinomico binomico2;
-            NumeroComplejoPolar polar1;
-            NumeroComplejoPolar polar2;
+            // Valido que las frecuencias de las dos funciones sean iguales (así se puede aplicar fasores)
+            if (!(frecuencia1 == frecuencia2))
+            {
+                MessageBox.Show("Las frecuencias de ambas funciones deben ser iguales.", null, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
 
-            string fasor;
+            NumeroComplejoPolar fasor1p = new
+            NumeroComplejoPolar(amplitud1,fase1);
+
+            NumeroComplejoPolar fasor2p = new
+            NumeroComplejoPolar(amplitud2, fase2);
+
+            fasor1B = OperadorDeComplejos.PolarABinomico(fasor1p);
+            fasor2B = OperadorDeComplejos.PolarABinomico(fasor2p);
+
+            // Sumo o resto según la operación indicada
+            if (radioButton5.Checked)
+            {
+                resultadoOperacionB = OperadorDeComplejos.Sumar(fasor1B, fasor2B);
+            }
+            else
+            {
+                resultadoOperacionB = OperadorDeComplejos.Resta(fasor1B, fasor2B);
+            }
+
+            resultadoOperacionP = OperadorDeComplejos.BinomicoAPolar(resultadoOperacionB);
+
+
+
 
              /* - validar que las frecuencias de ambas funciones son iguales
              * - ambas frecuencias son iguales      SI, validar si ambas son senos o cosenos
