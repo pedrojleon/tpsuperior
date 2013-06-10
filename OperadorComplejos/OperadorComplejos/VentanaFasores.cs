@@ -48,13 +48,13 @@ namespace OperadorComplejos
         {          
             int tipoOperacion;
             int tipoFuncion1, tipoFuncion2;
-            
-            Double amplitud1;
-            Double amplitud2;
-            Double fase1; 
-            Double fase2;
-            Double frecuencia1;
-            Double frecuencia2;
+
+            Double amplitud1 = 0;
+            Double amplitud2 = 0;
+            Double fase1 = 0;
+            Double fase2 = 0;
+            Double frecuencia1 = 0;
+            Double frecuencia2 = 0;
             
             NumeroComplejoBinomico fasor1B;
             NumeroComplejoBinomico fasor2B;
@@ -170,8 +170,8 @@ namespace OperadorComplejos
             }
 
             resultadoOperacionP = OperadorDeComplejos.BinomicoAPolar(resultadoOperacionB);
-      
-            string str_resultado = ObtenerFasor(resultadoOperacionP);
+
+            string str_resultado = resultadoOperacionP.Modulo + "cos(" + frecuencia1 + "t+" + resultadoOperacionP.Angulo + "π)"; 
             label11.Text = str_resultado;
 
             /* - validar que las frecuencias de ambas funciones son iguales
@@ -188,15 +188,7 @@ namespace OperadorComplejos
              * - imprimir por pantalla
              */
         }
-
-        // REVISAR COMO HACERLO
-        /*public string ObtenerFasor(NumeroComplejoPolar resultado)
-        {
-            public const string FORMATO_FASOR = "{0} cos({1}t+{2}π)";
-
-            return string.Format(FORMATO_FASOR, Math.Round(_modulo,3), Math.Round(_frecuencia,3), Math.Round((_fase / Math.PI),3));
-        }*/
-        
+       
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
         }
