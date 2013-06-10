@@ -190,12 +190,12 @@ namespace OperadorComplejos
         }
 
         // REVISAR COMO HACERLO
-        public string ObtenerFasor(NumeroComplejoPolar resultado)
+        /*public string ObtenerFasor(NumeroComplejoPolar resultado)
         {
             public const string FORMATO_FASOR = "{0} cos({1}t+{2}π)";
 
             return string.Format(FORMATO_FASOR, Math.Round(_modulo,3), Math.Round(_frecuencia,3), Math.Round((_fase / Math.PI),3));
-        }
+        }*/
         
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
