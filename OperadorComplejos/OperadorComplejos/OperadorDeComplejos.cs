@@ -54,17 +54,7 @@ namespace OperadorComplejos
 
             return new NumeroComplejoBinomico(Math.Round(parteReal,3), Math.Round(parteImaginaria,3));
         }
-
-         public static NumeroComplejoBinomico Restar(NumeroComplejoBinomico a, NumeroComplejoBinomico b)
-        {
-            double parteReal = a.ParteReal - b.ParteReal;
-            double parteImaginaria = a.ParteImaginaria - b.ParteImaginaria;
-
-            return new NumeroComplejoBinomico(Math.Round(parteReal,3), Math.Round(parteImaginaria,3));
-        }
-
-
-
+        
         /// <summary>
         /// Método para realizar el cociente de dos números complejos en forma binómica.
         /// </summary>

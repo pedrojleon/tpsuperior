@@ -204,6 +204,7 @@
             this.label11.Size = new System.Drawing.Size(39, 13);
             this.label11.TabIndex = 42;
             this.label11.Text = "Rtado:";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // radioButton5
             // 

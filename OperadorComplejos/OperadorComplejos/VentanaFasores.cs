@@ -45,10 +45,7 @@ namespace OperadorComplejos
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
-            // VER DONDE VALIDO QUE LAS FRECUENCIAS NO SEAN IGUALES. SI LO HAGO ABAJO DE TODO
-            // ME DA ERROR. VER SI LO PONGO EN EL TRY CATCH
-            
+        {          
             int tipoOperacion;
             int tipoFuncion1, tipoFuncion2;
             
@@ -63,7 +60,7 @@ namespace OperadorComplejos
             NumeroComplejoBinomico fasor2B;
             NumeroComplejoBinomico resultadoOperacionB;
             NumeroComplejoPolar resultadoOperacionP;
-         
+                        
             // Valido que se ingresen solo números
             try
             {
@@ -137,6 +134,20 @@ namespace OperadorComplejos
                 MessageBox.Show("Las frecuencias de ambas funciones deben ser iguales.", null, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
 
+            // Valido que ambas funciones sean SENO o COSENO
+            if (radioButton1.Checked && radioButton4.Checked)
+            {
+                // Transformar la segunda función
+                fase2 = fase2 - (1 / 2);
+
+            }
+
+            if (radioButton2.Checked && radioButton3.Checked)
+            {
+                // Transformar la primer función
+                fase1 = fase1 + (1 / 2);
+            }
+            
             NumeroComplejoPolar fasor1p = new
             NumeroComplejoPolar(amplitud1,fase1);
 
@@ -153,15 +164,17 @@ namespace OperadorComplejos
             }
             else
             {
-                resultadoOperacionB = OperadorDeComplejos.Resta(fasor1B, fasor2B);
+                fasor2B.setParteReal(fasor2B.ParteReal * -1);
+                fasor2B.setParteImaginaria(fasor2B.ParteImaginaria * -1);
+                resultadoOperacionB = OperadorDeComplejos.Sumar(fasor1B, fasor2B);
             }
 
             resultadoOperacionP = OperadorDeComplejos.BinomicoAPolar(resultadoOperacionB);
+      
+            string str_resultado = ObtenerFasor(resultadoOperacionP);
+            label11.Text = str_resultado;
 
-
-
-
-             /* - validar que las frecuencias de ambas funciones son iguales
+            /* - validar que las frecuencias de ambas funciones son iguales
              * - ambas frecuencias son iguales      SI, validar si ambas son senos o cosenos
              *                                      NO, informar que ambas frecuencias deben ser iguales
              * 
@@ -176,6 +189,14 @@ namespace OperadorComplejos
              */
         }
 
+        // REVISAR COMO HACERLO
+        public string ObtenerFasor(NumeroComplejoPolar resultado)
+        {
+            public const string FORMATO_FASOR = "{0} cos({1}t+{2}π)";
+
+            return string.Format(FORMATO_FASOR, Math.Round(_modulo,3), Math.Round(_frecuencia,3), Math.Round((_fase / Math.PI),3));
+        }
+        
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
         }
@@ -222,6 +243,11 @@ namespace OperadorComplejos
         }
 
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
         {
 
         }
